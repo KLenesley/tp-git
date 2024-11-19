@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body bgcolor="black" text="white">
+		<table width="100%" >
+			<td width="33.3%" align="left"><a href="html_debut_test.html"><h4>Précédent</h4></a></td>
+			<td width="33.3%" align="middle"><a href="html_liens.html"><h4>Liens</h4></a></td>
+			<td width="33.3%" align="right"><a href="html_signet.html"><h4>Suivant</h4></a></td>
+		</table>
+		<center><h1>Structures Imbriquées</h1></center>
+		<hr>
+		<h2>Les Listes</h2>
+		Liste à puces (UL : Unordered List)
+		<ul>
+			<li>Premier</li>
+			<li>Deuxième
+			<ul><li>Premier</li>
+				<li>Deuxième</li>
+				<li>Toisième</li>
+			</ul>
+			</li>
+			<li>Troisième</li>
+		</ul>
+
+		<li>Seul</li><br>
+
+		Liste numérotée (OL : Ordered List)
+		<ol>
+			<li>Premier</li>
+			<li>Deuxième</li>
+			<li>Toisième</li>
+		</ol>
+		<br><br>
+		<h2>Les Tables</h2>
+		<table width="500" height="300" border="5">
+			<tbody valign="top">
+				<tr align="left">
+					<td>Bonjour</td>
+					<td>Hello</td>
+					<td>Bonsoir</td>
+				</tr>
+				<tr align="center">
+					<td>Coucou</td>
+					<td>Salut</td>
+					<td>Yo</td>
+				</tr>
+				<tr align="right">
+					<td>AAA</td>
+					<td></td>
+					<td>CCC</td>
+				</tr>
+				<tr>
+					<td align="left">DDD</td>
+					<td align="center">EEE</td>
+					<td align="right">FFF</td>
+				</tr>
+				<tr align="center">
+					<td valign="bottom">GGG</td>
+					<td align="right">HHH</td>
+					<td valign="middle">III</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br><br><br>
+		
+		<table cellpadding="10" cellspacing="25" border="5">
+			<caption align="bottom">Titre de la table</caption>
+			<tbody>
+				<tr>
+					<th>Titre 1</th>
+					<th>Titre 2</th>
+					<th>Titre 3</th>
+				</tr>
+				<tr align="left">
+					<td>Bonjour</td>
+					<td>Hello</td>
+					<td>Bonsoir</td>
+				</tr>
+				<tr align="center">
+					<td>Coucou</td>
+					<td>Salut</td>
+					<td>Yo</td>
+				</tr>
+				<tr align="right">
+					<td>AAA</td>
+					<td></td>
+					<td>CCC</td>
+				</tr>
+				<tr>
+					<td align="left">DDD</td>
+					<td align="center">EEE</td>
+					<td align="right">FFF</td>
+				</tr>
+				<tr align="center">
+					<td valign="bottom">GGG</td>
+					<td align="right">HHH</td>
+					<td valign="middle">III</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br><br><br>
+
+		<table cellpadding="0" cellspacing="0" border="1">
+			<tbody align="center" valign="middle">
+				<tr height="100">
+					<td width="100">a</td>
+					<td width="100">b</td>
+				</tr>
+				<tr height="100" width="100">
+					<td>c</td>
+					<td>
+						<table height="100" width="100" cellpadding="0" cellspacing="0" border>
+							<tbody align="center" valign="middle">
+								<tr>
+									<td>d</td>
+									<td>e</td>
+								</tr>
+								<tr>
+									<td>f</td>
+									<td>g</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br><br>
+		<table height="300" width="300" border>
+			<tbody align="center">
+				<tr>
+					<th>Titre 1</th>
+					<th colspan="2">Titre 2</th>
+				</tr>
+				<tr>
+					<td>Bonjour</td>
+					<td>Hello</td>
+					<td rowspan="2">Bonsoir <br><br> Yo</td>
+				</tr>
+				<tr>
+					<td>Coucou</td>
+					<td>Salut</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br><br><br>
+
+		<table height="300" width="300" border>
+			<tbody align="center" valign="middle">
+				<tr>
+					<td rowspan="2">a</td>
+					<td>b</td>
+					<td>c</td>
+				</tr>
+				<tr>
+					<td colspan="2">d</td>
+				</tr>
+				<tr>
+					<td colspan="2">e</td>
+					<td>f</td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br><br>
+		<table align="center" height="300" width="300" border>
+			<tbody align="center" valign="middle">
+				<tr>
+					<td>a</td>
+					<td colspan="2">b</td>
+				</tr>
+				<tr>
+					<td rowspan="2">c</td>
+					<td>d</td>
+					<td>e</td>
+				</tr>
+				<tr>
+					<td>f</td>
+					<td>g</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
