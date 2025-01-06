@@ -1,0 +1,36 @@
+h1  {
+		font-family: Arial;
+		background-color: green;
+		color: blue;
+		margin: 50px;
+		padding: 25px;
+		text-align: center;
+		border: dashed 5px purple;
+		box-shadow: 2px 2px 7px 1px red;
+		text-shadow: 1px 2px 2px ;
+		text-transform: uppercase;
+		border-radius: 50px;
+	}
+
+a 	{
+		color: blue;
+		font-weight: bolder;
+		font-size: 24;
+		text-decoration: none;
+	}
+
+a:hover {
+			color: green;
+		}
+
+.important  {
+				color: red;
+			}
+
+.flou	{
+			filter: blur(10px);
+		}
+
+.negatif{
+			filter: invert(100%);
+		}
